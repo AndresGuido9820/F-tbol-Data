@@ -8,9 +8,9 @@ import DataVisualization from './components/layout/Data';
 const App: React.FC = () => {
   return (
     <Router>
-      <div>
+      <div className='overflow-hidden'>
         <Navbar />
-        <div className="p-4">
+        <div className="">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/live" element={<LiveMatches />} />
